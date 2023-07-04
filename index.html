@@ -13,7 +13,7 @@
         <div class="card-header">To Do List</div>
         <!-- List of task added by user -->
         <div class="card-body">
-            <ul class="list-tache"></ul>
+            <ul id="list-tache"></ul>
         </div>
         <div class="card-footer">
             <!-- the buttons of options -->
@@ -28,7 +28,7 @@
                         Delete</button>
         <!-- The input for type the task and button to add to the list -->
             <input type="text" size="50px" name="task" id="taskTyped" placeholder="Ecrire tâche ...">
-            <button class="btn btn-success" id="buttonAdd" type="button">Add</button>
+            <button class="btn btn-success" id="buttonAdd" type="button" onclick="addTasks()">Add</button>
         </div>
     </div>
 
