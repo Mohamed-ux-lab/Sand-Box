@@ -4,38 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My To Do-List</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="script.js" type="module" defer></script>
 </head>
 <body>
     <!-- The one container of the site-web for receive their task -->
-    <div class="card" style="background-color: rgba(255, 255, 255, 0.514);">
-        <div class="card-header">To Do List</div>
-        <!-- List of task added by user -->
-        <div class="card-body">
-            <ul id="list-tache"></ul>
-        </div>
-        <div class="card-footer">
-            <!-- the buttons of options -->
-            <button id="buttonDone" type="button">
-                <span class="btnIcons" style="height: 27px; width: 40px;"><img src="img/circle_ok.svg" alt="Ok icon"></span>
-                Done</button>
-                <button id="buttonModify" type="button" style="margin-left: 10px;">
-                    <span class="btnIcons" style="height: 27px; width: 40px;"><img src="img/pen_3.svg" alt="Modify icon"></span>
-                    Modify</button>
-                    <button id="buttonDelete" type="button" style="margin-left: 10px;">
-                        <span class="btnIcons" style="height: 27px; width: 40px;"><img src="img/circle_delete.svg" alt="Delete icon"></span>
-                        Delete</button>
-        <!-- The input for type the task and button to add to the list -->
-            <input type="text" size="50px" name="task" id="taskTyped" placeholder="Ecrire tâche ...">
-            <button class="btn btn-success" id="buttonAdd" type="button" onclick="addTasks()">Add</button>
-        </div>
-    </div>
+    <section class="container pt-5" id="todolist">
+       
+    </section>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
 </html>
